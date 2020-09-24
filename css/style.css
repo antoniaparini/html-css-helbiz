@@ -14,9 +14,27 @@ body {
   width:1350px;
 }
 
-.relative{
-  position: relative;
+.box-rel{
+  position: absolute;
+  left: 22%;
+  top: 25%;
+  z-index: 50;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
+
+.box-rel2{
+  position: absolute;
+  left: 27%;
+  top: 28%;
+  z-index: 50;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
 
 /*IMMAGINI XS*/
 
@@ -51,9 +69,8 @@ body {
 }
 
 
-h1 {
-  position:absolute;
-  text-align: center;
-  z-index: 50;
 
-  }
+
+/*h1 {
+  text-align: center;
+  }*/
