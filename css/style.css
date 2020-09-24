@@ -14,6 +14,9 @@ body {
   width:1350px;
 }
 
+.relative{
+  position: relative;
+}
 
 /*IMMAGINI XS*/
 
@@ -38,10 +41,19 @@ body {
 
 .col-xs-12 img {
   max-width:100%;
+  min-height: 100%;
   /*max-height:100px;*/
   margin-top: 20px;
   text-align: center;
   padding-bottom: 20px;
   display:inline-block;
   /*margin:0px auto;*/
-  text-align:center;
+}
+
+
+h1 {
+  position:absolute;
+  text-align: center;
+  z-index: 50;
+
+  }
