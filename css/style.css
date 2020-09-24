@@ -11,19 +11,38 @@ body {
 
 /*container width*/
 .container {
-  width:1350px;
+  width:100%;
 }
-
+.jumbotron {
+  background-image: url(../img/hero-bg.jpg);
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
 .box-rel{
   position: absolute;
-  left: 30%;
+  /*left: 30%;*/
   top: 26%;
   z-index: 50;
   text-align: center;
   color: white;
   font-size: 20px;
   font-weight: bold;
+  width: 100%;
+}
+
+.box-rel h1{
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+
+.box-rel p{
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 .box-rel2{
@@ -63,40 +82,35 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
+
+/*IMMAGINI XS*/
+
+/*BUTTONS*/
+.apple{
+  position: absolute;
+  max-width: 150px;
+  max-height: 51px;
+  left: 35%;
+  top: 75%;
+  z-index: 10;
+  }
+
+.google {
+  position: absolute;
+  max-width: 150px;
+  max-height: 49px;
+  left: 55%;
+  top: 75%;
+  z-index: 10;
+}
+
 .seg {
   width:25%;
   text-align: center;
   margin-left: 280px;
 }
-/*IMMAGINI XS*/
-.apple{
-  position: absolute;
-  max-width: 100px;
-  max-height: 33px;
-  left: 30%;
-  top: 70%;
-  z-index: 10;
-  }
-.google {
-  position: absolute;
-  max-width: 100px;
-  max-height: 33px;
-  left: 50%;
-  top: 70%;
-  z-index: 10;
-}
 
-.box-color {
-  width: 500px;
-  height: 500px;
-  background-color: #fafafa;
-  margin-left: 16%;
-}
-
-
-
-
-
+/*COLONNE*/
 .col-xs-8 img {
   max-width:200px;
   max-height:100px;
