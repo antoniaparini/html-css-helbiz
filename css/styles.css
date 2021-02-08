@@ -1,0 +1,403 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color:#000;
+  background:#fff;
+}
+
+/* Typography */
+
+a.link-white {
+  color:#fff;
+  text-decoration: none;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+/* Container specific */
+
+.container {
+  width: 1350px;
+}
+
+.container-small {
+  width:1200px;
+}
+
+.only-desktop {
+  display:none;
+}
+
+.absolute-box {
+  position: static;
+}
+
+/* HEADER */
+
+header .container-small {
+  text-align: center;
+  line-height: 15px;
+  padding: 25px;
+}
+
+header img {
+  vertical-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li:not(.language) {
+  margin-right: 30px;
+}
+
+nav ul li.language:not(:last-child) a {
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px #000 solid;
+  line-height: 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+}
+
+/* MAIN */
+
+/* Jumbotron */
+
+.jumbotron {
+  position:relative;
+  height: 550px;
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.jumbotron .absolute-box {
+  width:100%;
+  padding:20px;
+  color:#fff;
+}
+
+.jumbo-text h1 {
+  font-size: 300%;
+  line-height: 2;
+}
+
+.jumbo-text a {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Products */
+.products {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.product-box {
+  background:#fafafa;
+}
+
+.product-box h3 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.product-box small {
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.product-box a {
+  font-size: 14px;
+  display: block;
+  color: #0007ff;
+}
+
+.product-box img {
+  width:50%;
+}
+
+/* How Works */
+
+.how-works {
+  height: 400px;
+  margin-bottom: 300px;
+  background-image: url('../img/helbiz-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.how-works .col-left,
+.how-works .col-right {
+  margin-top:450px;
+}
+
+.how-works .col-left {
+  text-align: right;
+}
+
+.how-works .col-left .text {
+  display: inline-block;
+  text-align: left;
+}
+
+.how-works .col-left h3 {
+  font-size: 30px;
+}
+
+.how-works h3,
+.how-works h4 {
+  font-weight: 600;
+}
+
+.how-works .col-right .text {
+  padding-top: 10px;
+}
+
+/* Smart Mobility */
+
+.smart-mobility {
+  margin-top: 250px;
+  height: 500px;
+  background-image: url('../img/scooter-bg.jpg');
+  background-size: cover;
+  background-position: bottom right;
+  text-align: center;
+}
+
+.smart-mobility .col-md-6 {
+  height: 100%;
+}
+
+.smart-mobility .absolute-box {
+  margin-top: 150px;
+  color:#fff;
+}
+
+.smart-mobility h3 {
+  font-size: 250%;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.smart-mobility small {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.smart-mobility a {
+  display: block;
+  font-size: 18px;
+  line-height: 1.25;
+  margin-top: 20px;
+}
+
+
+/* Find Us */
+
+.find-us {
+  margin-top: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.fu-box-left,
+.fu-box-right {
+  height: 200px;
+}
+
+.fu-box-left {
+  background-color: rgb(38,48,57);
+  background: linear-gradient(0deg, rgba(38,48,57,1) 0%, rgba(65,86,106,1) 100%);
+  padding: 40px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.fu-box-left h3,
+.fu-box-right h3 {
+  font-size: 175%;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.fu-box-left small,
+.fu-box-right small {
+  display: block;
+  line-height: 4;
+}
+
+.fu-box-left a,
+.fu-box-right a {
+  line-height: 2;
+  margin-left: 10px;
+}
+
+.fu-box-left img {
+  display: none;
+}
+
+.fu-box-right {
+  background: url('../img/cities.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  position: relative;
+}
+
+/* Mosaic */
+
+.mosaic {
+  margin: 50px 0;
+  position:relative;
+  height: 200px;
+  background-image: url('../img/social-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.mosaic .absolute-box {
+  width:350px;
+  padding:30px;
+  background:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mosaic h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+ul.mosaic-social {
+  padding:0;
+}
+
+ ul.mosaic-social li {
+  list-style: none;
+  display: inline-block;
+}
+
+ ul.mosaic-social li:not(:last-child) {
+  padding-right: 25px;
+}
+
+ ul.mosaic-social li a {
+ text-decoration: none;
+ color: #000;
+ font-size: 35px;
+}
+
+/* FOOTER */
+
+
+/* MEDIA QUERY PC */
+
+@media screen and (min-width: 992px) {
+  .only-desktop {
+    display: block;
+  }
+
+  .how-works {
+    background-position: center;
+  }
+
+  .how-works .phone {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .how-works .phone img {
+    max-height: 600px;
+    max-width: 100%;
+  }
+}
+
+/* MEDIA QUERY TABLET */
+
+@media screen and (min-width: 768px) {
+  .jumbotron .absolute-box {
+    width:700px;
+  }
+
+  .absolute-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /* Products */
+  .products .col-md-6 {
+    padding:25px;
+  }
+  /* How Works */
+
+  .how-works {
+    margin-bottom: 250px;
+  }
+
+  .how-works .col-left,
+  .how-works .col-right {
+    margin-top: 500px;
+  }
+
+  /* Smart Mobility */
+
+  .smart-mobility {
+    background-position: center center;
+  }
+
+  .smart-mobility .col-md-6 {
+    height: 100%;
+    position:relative;
+  }
+
+  .smart-mobility .absolute-box {
+    margin-top: 0;
+    width:350px;
+  }
+
+  /* Find Us */
+  .find-us {
+    margin-top: 25px;
+  }
+
+  .fu-box-left,
+  .fu-box-right {
+    height: 440px;
+  }
+
+  .fu-box-left img {
+    display: block;
+    width: 75%;
+    position: absolute;
+    top:200px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Mosaic */
+
+  .mosaic {
+    margin: 100px 0;
+    height: 400px;
+  }
+}

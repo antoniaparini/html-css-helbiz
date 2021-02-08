@@ -102,7 +102,7 @@
 
 /*TABLET (md) 768 - 991 */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
   .col-md-6 .display {
     display:inline-block;
   }
